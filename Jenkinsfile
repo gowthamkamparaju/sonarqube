@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github-creds', url: 'https://github.com/<your-username>/<your-repo>.git'
+                git branch: 'main', credentialsId: 'github-creds', url: 'https://github.com/gowthamkamparaju/sonarqube.git'
             }
         }
 
